@@ -1,0 +1,36 @@
+﻿@model Player
+<form method="post">
+    <button type="Post" asp-page-handler="DrawAgain()">Draw Again</button>
+</form>
+<p></p>
+<p>Card Value: @Model.cards[0].value</p>
+<p>Card Suit: @Model.cards[0].suit</p>
+<img src="@Model.cards[0].image" />
+<br />
+
+<p>Card Value: @Model.cards[1].value</p>
+<p>Card Suit: @Model.cards[1].suit</p>
+<img src="@Model.cards[1].image" />
+<br />
+
+<p>Card Value: @Model.cards[2].value</p>
+<p>Card Suit: @Model.cards[2].suit</p>
+<img src="@Model.cards[2].image" />
+<br />
+
+<p>Card Value: @Model.cards[3].value</p>
+<p>Card Suit: @Model.cards[3].suit</p>
+<img src="@Model.cards[3].image" />
+<br />
+
+<p>Card Value: @Model.cards[4].value</p>
+<p>Card Suit: @Model.cards[4].suit</p>
+<img src="@Model.cards[4].image" />
+
+<br />
+<p></p><br />
+<form method="post">
+    <button type="Post" asp-page-handler="DrawAgain()">Draw Again</button>
+</form>
+
+
